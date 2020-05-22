@@ -1,0 +1,127 @@
+body {
+	margin:0px;
+	background-color: #dbcdf0;
+	background: linear-gradient(90deg, #dbcdf0, #e0aaff);
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size:16px;
+}
+
+
+h2 {
+	font-size:450%;
+	text-align: center;
+	color: #3c096c;
+	margin:10px;
+	padding:10px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight: bolder;
+	text-shadow: 3px 3px 5px #7b2cbf;
+}
+
+#bar {
+	overflow: hidden;
+	background-color: #3c096c;
+	height: 55px;
+	font-weight: normal;
+	font-size: 150%;
+	margin:10px;
+	border-radius: 5px;
+}
+
+#bar ul {
+	list-style-type: none;
+	padding:0px;
+	margin:0px;
+	text-align: center;
+
+
+}
+#bar ul li {
+	display: inline;
+	padding:15px;
+	vertical-align: middle;
+	margin: 0px;
+	
+}
+
+#bar ul li a {
+	background-color: #3c096c;
+	text-decoration: none;
+	border-radius: 5px;
+	color: #c77dff;
+	padding: 10px 10px 11px 10px;
+	vertical-align: middle;
+	line-height: 55px;
+	text-align: center;
+	margin: 5px;
+
+}
+#bar ul li a:hover {
+	font-weight: bold;
+	background-color: #9d4edd;
+	border-radius: 5px;
+	color: #240046;
+
+
+}
+.active {
+	font-weight: bolder !important;
+	background-color: #9d4edd !important;
+	border-radius: 5px !important;
+	color: #10002b !important;
+} 
+/* lehetne még ezt optimalizálni, de legalább működik*/
+
+.img {
+	margin: 10px;
+	display:block;
+	border-radius: 3px;
+}
+
+#st{
+	border-radius: 3px;
+}
+
+.content {
+	color: #240046;
+	text-align: center;
+
+}
+p {
+	font-size: 180%;
+	text-align: center;
+	vertical-align: middle;
+}
+blockquote{
+	font-size: 120%;
+	text-align: middle;
+	margin: 5px;
+}
+
+.content ul li{
+	text-align: center;
+	font-size: 180%;
+	list-style-type: none;
+	margin: 20px;
+}
+
+#r{
+	text-decoration: none;
+	color: blue;
+}
+#r:visited {
+	color:red;
+}
+
+#r:hover{
+	background-color: yellow;
+}
+#elf{
+	background-image: url(elf.png);
+	background-size: cover;
+}
+
+#placeholder{
+	color: #dbcdf0;
+	text-align: center;
+}
